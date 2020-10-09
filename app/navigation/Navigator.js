@@ -47,7 +47,7 @@ const AppNavigator = createStackNavigator(
             tabBarIcon: ({ focused }) => (  
               <View>  
                   <Image
-          //  style={{ width: 25, height: 25,alignSelf:"center",marginTop:5}}
+          //  style={{ width: 25, height: 25,alignSelf:"center", marginTop:5}}
             source= {focused ? require('../assets/img/icon_corousel_select/iconCarouselSelected.png') :  require('../assets/img/icon_corousel_unselect/iconCarouselDeSelected.png')}/>
               </View>), 
             activeColor: '#f0edf6',
